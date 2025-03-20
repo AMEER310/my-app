@@ -6,6 +6,8 @@ import PrepareTrip from "./components/PrepareTrip";
 import PopularDestinations from "./components/PopularDestinations";
 import RecommendedHolidays from "./components/RecommendedHolidays";
 import PopularStays from "./components/PopularStays";
+import NewsletterSignup from "./components/NewsletterSignup";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <PopularDestinations/>
       <RecommendedHolidays/>
       <PopularStays/>
+      <NewsletterSignup/>
+      <Footer/>
     </div>
   );
 }

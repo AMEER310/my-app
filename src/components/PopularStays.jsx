@@ -41,9 +41,9 @@ const stays = [
 export default function PopularStays() {
   return (
     <div className="popular-stays-container">
-      <div className="header">
+      <div className="headerstay">
         <h2>Popular Stays</h2>
-        <a href="#" className="view-all">View all stays →</a>
+        <a href="#" className="view-all">View all stays &gt;</a>
       </div>
       <div className="stays-list">
         {stays.map((stay, index) => (
