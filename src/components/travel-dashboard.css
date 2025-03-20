@@ -76,3 +76,50 @@
   .flight-path span {
     font-size: 18px;
   }
+
+  @media (max-width: 1024px) {
+    .recent-searches-title {
+        font-size: 28px;
+    }
+    .search-box-container {
+        flex-direction: column;
+    }
+    .search-box {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .recent-searches-title {
+        font-size: 24px;
+    }
+    .search-box {
+        padding: 12px;
+    }
+    .top-row,
+    .bottom-row {
+        flex-direction: column;
+        gap: 4px;
+    }
+    .search-box .from,
+    .search-box .to {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .recent-searches-title {
+        font-size: 20px;
+    }
+    .search-box {
+        width: 100%;
+        padding: 10px;
+    }
+    .search-box .from,
+    .search-box .to {
+        font-size: 14px;
+    }
+    .search-box .date {
+        font-size: 12px;
+    }
+}

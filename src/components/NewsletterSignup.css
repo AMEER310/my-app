@@ -63,3 +63,42 @@
     background: #e68900;
   }
   
+
+  @media (max-width: 1024px) {
+    .newsletter-content {
+      padding: 100px 150px;
+      width: 400px;
+    }
+    .newsletter-title, .newsletter-subtitle {
+      font-size: 26px;
+    }
+    .input-field, .submit-btn {
+      max-width: 400px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .newsletter-content {
+      padding: 80px 100px;
+      width: 350px;
+    }
+    .newsletter-title, .newsletter-subtitle {
+      font-size: 22px;
+    }
+    .input-field, .submit-btn {
+      max-width: 350px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .newsletter-content {
+      padding: 40px 20px;
+      width: 90%;
+    }
+    .newsletter-title, .newsletter-subtitle {
+      font-size: 20px;
+    }
+    .input-field, .submit-btn {
+      max-width: 100%;
+    }
+  }

@@ -14,3 +14,25 @@
     font-size: 30px;
   }
   
+  @media (max-width: 1024px) {
+    .header {
+      font-size: 26px;
+      padding: 10px 15px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .header {
+      font-size: 22px;
+      padding: 8px 12px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .header {
+      font-size: 18px;
+      padding: 6px 10px;
+      flex-direction: column;
+      text-align: center;
+    }
+  }

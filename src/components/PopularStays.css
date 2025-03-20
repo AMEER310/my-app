@@ -90,3 +90,48 @@
     background-color: #0056b3;
   }
   
+
+  @media (max-width: 1024px) {
+    .stay-card {
+      width: 350px;
+    }
+    .stay-image {
+      height: 200px;
+    }
+    .headerstay {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .headerstay h2, .view-all {
+      margin: 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .stay-card {
+      width: 300px;
+    }
+    .stay-image {
+      height: 180px;
+    }
+    .headerstay h2 {
+      font-size: 20px;
+    }
+    .view-all {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .stay-card {
+      width: 100%;
+    }
+    .stay-image {
+      height: auto;
+    }
+    .headerstay h2, .view-all {
+      font-size: 16px;
+      text-align: center;
+    }
+  }

@@ -78,3 +78,37 @@
     margin-top: 4px;
     font-size: 14px;
   }
+
+
+  @media (max-width: 1024px) {
+    .destination-card {
+      width: 350px;
+      height: 200px;
+    }
+    .plan-next-trip p, .plan-next-trip h2 {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .destination-card {
+      width: 300px;
+      height: 180px;
+    }
+    .plan-next-trip p, .plan-next-trip h2 {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .destination-card {
+      width: 100%;
+      height: auto;
+    }
+    .plan-next-trip p, .plan-next-trip h2 {
+      font-size: 16px;
+    }
+    .view-all-destinations {
+      font-size: 18px;
+    }
+  }

@@ -41,3 +41,37 @@
     font-size: 16px;
     color: #333;
   }
+
+
+  @media (max-width: 1024px) {
+    .prepare-container {
+      margin-left: 0;
+    }
+    .prepare-items {
+      gap: 30px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .prepare-items {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .prepare-title {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .prepare-title {
+      font-size: 18px;
+    }
+    .prepare-label {
+      font-size: 14px;
+    }
+    .prepare-icon {
+      width: 50px;
+      height: 50px;
+      font-size: 20px;
+    }
+  }
